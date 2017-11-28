@@ -12,3 +12,7 @@ gradle-app.setting
 
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
 # gradle/wrapper/gradle-wrapper.properties
+*.xml
+test1/.idea/modules/test1.iml
+test1/.idea/modules/test1_main.iml
+test1/.idea/modules/test1_test.iml
