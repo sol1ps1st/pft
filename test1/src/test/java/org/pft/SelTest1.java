@@ -19,10 +19,18 @@ public class SelTest1 {
     @Test
     public void testYandex1(){
         driver.get("https://www.yandex.ru/");
-        WebElement searchField = driver.findElementByCssSelector("#text");
-        searchField.sendKeys("пылесосы");
+        setSearchQuery("пылесосы");
+        clickSearhBtn();
+    }
+
+    private void clickSearhBtn() {
         WebElement searchBtn = driver.findElementByCssSelector("div.search2__button>button");
         searchBtn.click();
+    }
+
+    private void setSearchQuery(String text) {
+        WebElement searchField = driver.findElementByCssSelector("#text");
+        searchField.sendKeys(text);
     }
 
     @AfterMethod
