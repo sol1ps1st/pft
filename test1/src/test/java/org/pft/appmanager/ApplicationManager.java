@@ -6,6 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.util.concurrent.TimeUnit;
 
 public class ApplicationManager{
+
     public WebDriver driver;
     private YandexHelper yandexHelper;
     public YandexHelper getYandexHelper() {

@@ -5,13 +5,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.pft.model.Query;
 
-public class YandexHelper {
-    private WebDriver driver;
+public class YandexHelper extends HelperBase {
     YandexHelper(WebDriver driver){
-        this.driver = driver;
+        super(driver);
     }
     public void openYandexPage() {
-        driver.get("https://www.yandex.ru/");
+        openPage("https://www.yandex.ru/");
     }
     public void setSearchQuery(Query q) {
         WebElement searchField = driver.findElement(By.cssSelector("#text"));
