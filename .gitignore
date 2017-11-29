@@ -16,3 +16,10 @@ gradle-app.setting
 test1/.idea/modules/test1.iml
 test1/.idea/modules/test1_main.iml
 test1/.idea/modules/test1_test.iml
+test1/.idea/modules/testSandbox.iml
+test1/.idea/modules/testSandbox_main.iml
+test1/.idea/modules/testSandbox_test.iml
+testSandbox/.idea/modules/testSandbox.iml
+testSandbox/.idea/modules/testSandbox_main.iml
+testSandbox/.idea/modules/testSandbox_test.iml
+testSandbox/out/production/classes/org/pft/Main.class
