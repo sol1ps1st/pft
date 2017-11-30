@@ -24,3 +24,7 @@ testSandbox/.idea/modules/testSandbox_main.iml
 testSandbox/.idea/modules/testSandbox_test.iml
 testSandbox/out/production/classes/org/pft/Main.class
 *.class
+test1/out/test/classes/org/pft/model/Query.class
+test1/out/test/classes/org/pft/model/Query.class
+test1/out/test/classes/org/pft/tests/SelTestYandex.class
+test1/out/test/classes/org/pft/tests/TestBase.class
