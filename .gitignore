@@ -23,3 +23,4 @@ testSandbox/.idea/modules/testSandbox.iml
 testSandbox/.idea/modules/testSandbox_main.iml
 testSandbox/.idea/modules/testSandbox_test.iml
 testSandbox/out/production/classes/org/pft/Main.class
+*.class

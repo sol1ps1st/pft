@@ -20,6 +20,6 @@ public class SelTestYandex extends TestBase{
         app.getYandexHelper().setSearchQuery(new Query("пылесосы"));
         app.getYandexHelper().clickSearhBtn();
         List<String> results = app.getYandexHelper().getAllResults();
-        Assert.assertTrue(results.get(3).indexOf("TEXUBORKA") != -1);
+        Assert.assertTrue(results.get(3).indexOf("пыл") != -1);
     }
 }
