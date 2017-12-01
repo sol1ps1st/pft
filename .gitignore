@@ -28,3 +28,4 @@ test1/out/test/classes/org/pft/model/Query.class
 test1/out/test/classes/org/pft/model/Query.class
 test1/out/test/classes/org/pft/tests/SelTestYandex.class
 test1/out/test/classes/org/pft/tests/TestBase.class
+*.class
