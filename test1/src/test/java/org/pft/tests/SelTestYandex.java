@@ -1,10 +1,13 @@
 package org.pft.tests;
 
+import org.hamcrest.MatcherAssert;
 import org.pft.model.Query;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.util.List;
+
+import static org.hamcrest.CoreMatchers.equalTo;
 
 public class SelTestYandex extends TestBase{
 
@@ -21,5 +24,6 @@ public class SelTestYandex extends TestBase{
         app.getYandexHelper().clickSearhBtn();
         List<String> results = app.getYandexHelper().getAllResults();
         Assert.assertTrue(results.get(3).indexOf("пыл") != -1);
+        MatcherAssert.assertThat(1, equalTo(1));
     }
 }
