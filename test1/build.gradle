@@ -25,10 +25,16 @@ task testYandex(type: Test){
     useTestNG(){
         suites 'src/test/resources/testNGYandex.xml'
     }
+    if (project.hasProperty('target')) {
+        systemProperty 'target', "${target}"
+    }
 }
 
 task testRegress(type: Test){
     useTestNG(){
         suites 'src/test/resources/testNGRegress.xml'
+    }
+    if (project.hasProperty('target')) {
+        systemProperty 'target', "${target}"
     }
 }

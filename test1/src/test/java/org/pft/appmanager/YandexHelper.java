@@ -14,6 +14,7 @@ public class YandexHelper extends HelperBase {
     }
     public void openYandexPage() {
         openPage("https://www.yandex.ru/");
+        //openPage();
     }
     public void setSearchQuery(Query q) {
         WebElement searchField = driver.findElement(By.cssSelector("#text"));

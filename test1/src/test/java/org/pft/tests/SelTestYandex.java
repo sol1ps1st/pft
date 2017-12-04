@@ -36,7 +36,8 @@ public class SelTestYandex extends TestBase{
         List<Object[]> list = new ArrayList<Object[]>();
         list.add(new Object[]{new Query("google")});
         list.add(new Object[]{new Query("yan")});
-        list.add(new Object[]{new Query("пылесосы")});
+        //list.add(new Object[]{new Query("пылесосы")});
+        list.add(new Object[]{new Query(app.properties.getProperty("target"))});
         return list.iterator();
     }
 
