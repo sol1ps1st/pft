@@ -14,3 +14,21 @@ dependencies {
     compile 'org.seleniumhq.selenium:selenium-java:3.7.1'
     compile 'org.hamcrest:java-hamcrest:2.0.0.0'
 }
+
+//test{
+//    useTestNG(){
+//        suites 'src/test/resources/testNG.xml'
+//    }
+//}
+
+task testYandex(type: Test){
+    useTestNG(){
+        suites 'src/test/resources/testNGYandex.xml'
+    }
+}
+
+task testRegress(type: Test){
+    useTestNG(){
+        suites 'src/test/resources/testNGRegress.xml'
+    }
+}
