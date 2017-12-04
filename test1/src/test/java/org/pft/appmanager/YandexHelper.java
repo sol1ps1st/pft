@@ -34,4 +34,9 @@ public class YandexHelper extends HelperBase {
         return  results;
     }
 
+    public boolean isResultsExist(){
+        List<WebElement> elements = driver.findElements(By.cssSelector(".main__content div.content__left>ul>li"));
+        return elements.size() > 0;
+    }
+
 }
