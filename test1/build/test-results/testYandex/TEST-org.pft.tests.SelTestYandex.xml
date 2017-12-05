@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.pft.tests.SelTestYandex" tests="4" skipped="0" failures="0" errors="0" timestamp="2017-12-05T06:01:37" hostname="lap_KJ__" time="39.75">
+  <properties/>
+  <testcase name="testYandex1[0](Query{queryText='google'})" classname="org.pft.tests.SelTestYandex" time="18.514"/>
+  <testcase name="testYandex1[1](Query{queryText='yan'})" classname="org.pft.tests.SelTestYandex" time="6.703"/>
+  <testcase name="testYandex1[2](Query{queryText='пылесосы_gradle'})" classname="org.pft.tests.SelTestYandex" time="5.616"/>
+  <testcase name="testYandexGetThirdResult" classname="org.pft.tests.SelTestYandex" time="8.915"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

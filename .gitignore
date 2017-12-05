@@ -12,7 +12,6 @@ gradle-app.setting
 
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
 # gradle/wrapper/gradle-wrapper.properties
-*.xml
 test1/.idea/modules/test1.iml
 test1/.idea/modules/test1_main.iml
 test1/.idea/modules/test1_test.iml
@@ -29,3 +28,28 @@ test1/out/test/classes/org/pft/model/Query.class
 test1/out/test/classes/org/pft/tests/SelTestYandex.class
 test1/out/test/classes/org/pft/tests/TestBase.class
 *.class
+test1/build/tmp/testYandex/jar_extract_1269264403561423210_tmp
+test1/build/tmp/testYandex/jar_extract_1871550797668508163_tmp
+test1/build/tmp/testYandex/jar_extract_853295854062543431_tmp
+test1/build/tmp/testYandex/jar_extract_7264961011516543188_tmp
+test1/build/tmp/testYandex/jar_extract_6755633988596472874_tmp
+test1/build/tmp/testYandex/jar_extract_6422730919680218504_tmp
+test1/build/tmp/testYandex/jar_extract_5050229321051885769_tmp
+test1/build/tmp/testYandex/jar_extract_3167187384845715242_tmp
+test1/build/tmp/testYandex/jar_extract_2142170809481731665_tmp
+test1/build/reports/tests/testYandex/classes/org.pft.tests.SelTestYandex.html
+test1/build/reports/tests/testYandex/index.html
+*.html
+test1/build/reports/tests/testYandex/packages/org.pft.tests.html
+test1/.idea/compiler.xml
+test1/.idea/gradle.xml
+test1/.idea/libraries/Gradle__com_beust_jcommander_1_64.xml
+test1/.idea/libraries/Gradle__com_beust_jcommander_1_72.xml
+test1/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_1_3_9.xml
+test1/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_2.xml
+test1/.idea/libraries/Gradle__com_google_errorprone_error_prone_annotations_2_0_18.xml
+test1/.idea/libraries/Gradle__com_google_guava_guava_23_0.xml
+test1/.idea/libraries/Gradle__com_google_j2objc_j2objc_annotations_1_1.xml
+test1/.idea/libraries/Gradle__commons_codec_commons_codec_1_10.xml
+test1/.idea/libraries/Gradle__commons_logging_commons_logging_1_2.xml
+test1/build/reports/tests/testYandex/packages/org.pft.tests.html

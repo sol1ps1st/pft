@@ -14,7 +14,11 @@ public class ApplicationManager{
     public WebDriver driver;
     private YandexHelper yandexHelper;
     public String target;
-    public final Properties properties;
+
+    private final Properties properties;
+    public Properties getProperties() {
+        return properties;
+    }
 
     public ApplicationManager() {
         properties = new Properties();
