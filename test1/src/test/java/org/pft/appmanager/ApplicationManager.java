@@ -1,5 +1,6 @@
 package org.pft.appmanager;
 
+import org.apache.http.impl.client.CloseableHttpClient;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -11,7 +12,15 @@ import java.util.concurrent.TimeUnit;
 
 public class ApplicationManager{
 
-    public WebDriver driver;
+    //CloseableHttpClient
+    private WebDriver driver;
+    public WebDriver getDriver(){
+        if (driver == null){
+            driver = new ChromeDriver();
+            driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        }
+        return  driver;
+    }
     private YandexHelper yandexHelper;
     public String target;
 
@@ -25,13 +34,13 @@ public class ApplicationManager{
     }
 
     public YandexHelper getYandexHelper() {
+        if (yandexHelper == null){
+            yandexHelper = new YandexHelper(getDriver());
+        }
         return yandexHelper;
     }
 
     public void init() throws IOException {
-        driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-        yandexHelper = new YandexHelper(driver);
         target = System.getProperty("target");
         File f = new File(String.format("src/test/resources/%s.properties", target));
         FileReader fr = new FileReader(f);
