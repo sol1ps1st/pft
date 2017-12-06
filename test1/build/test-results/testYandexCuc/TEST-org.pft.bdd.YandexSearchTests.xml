@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.pft.bdd.YandexSearchTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-12-06T10:42:40" hostname="lap_KJ__" time="44.539">
+  <properties/>
+  <testcase name="runScenario[0](&quot;Search&quot;, &quot;YandexSearch&quot;)" classname="org.pft.bdd.YandexSearchTests" time="44.539"/>
+  <system-out><![CDATA[Feature: YandexSearch
+
+  Scenario: Search                   ?[90m# bdd/yandex.feature:2?[0m
+    ?[32mGiven ?[0m?[32myandex site?[0m                ?[90m# YandexSearchStepDefinitions.openYandex()?[0m
+    ?[32mWhen ?[0m?[32mI search with text ?[0m?[32m?[1mпылесосы?[0m ?[90m# YandexSearchStepDefinitions.search(String)?[0m
+    ?[32mThen ?[0m?[32mI have search's results?[0m     ?[90m# YandexSearchStepDefinitions.isResultExists()?[0m
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a) on port 29853
+Only local connections are allowed.
+дек 06, 2017 1:42:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+</testsuite>

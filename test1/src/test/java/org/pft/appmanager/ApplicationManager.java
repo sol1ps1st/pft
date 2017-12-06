@@ -41,7 +41,7 @@ public class ApplicationManager{
     }
 
     public void init() throws IOException {
-        target = System.getProperty("target");
+        target = System.getProperty("target", "local");
         File f = new File(String.format("src/test/resources/%s.properties", target));
         FileReader fr = new FileReader(f);
         properties.load(fr);
@@ -49,7 +49,9 @@ public class ApplicationManager{
     }
 
     public void stop() {
-        driver.close();
-        driver.quit();
+        if (driver != null) {
+            driver.close();
+            driver.quit();
+        }
     }
 }

@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SuiteCuc" verbose="1" >
+    <test name="testYandexCuc" >
+        <classes>
+            <class name="org.pft.bdd.YandexSearchTests" />
+        </classes>
+    </test>
+</suite>

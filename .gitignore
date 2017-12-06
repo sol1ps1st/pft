@@ -53,3 +53,6 @@ test1/.idea/libraries/Gradle__com_google_j2objc_j2objc_annotations_1_1.xml
 test1/.idea/libraries/Gradle__commons_codec_commons_codec_1_10.xml
 test1/.idea/libraries/Gradle__commons_logging_commons_logging_1_2.xml
 test1/build/reports/tests/testYandex/packages/org.pft.tests.html
+
+test1/build/tmp/
+test1/build/reports/
